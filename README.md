@@ -3,6 +3,7 @@ Listens to keystrokes while running in the background to automatically bring dif
 
 ## Requirements
 - .NET Framework 4.6.1. Sorry I'm so lazy, perhaps .NET Core when I have more time
+- SAD NOTE: Only reliably works with Visual Studio at the moment. Something about SetForegroundWindow being unable to steal focus from applications as a security measure. Although there are workarounds, which I will try soon/later.
 
 ## Usage
 - The left panel ("Select Process") will list all running processes that have a Window Title. The number by each is the process ID.
